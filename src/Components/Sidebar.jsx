@@ -5,7 +5,7 @@ import Socials from "./Socials";
 const Sidebar = () => {
   return (
     <div>
-      <div className="flex flex-col pt-20 pl-32">
+      <div className="flex flex-col pt-20 pl-24 fixed">
         <h1 className="text-white text-[48px] font-bold">
           Oluwatimilehin Esan
         </h1>

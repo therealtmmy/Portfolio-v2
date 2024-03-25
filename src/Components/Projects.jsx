@@ -1,6 +1,7 @@
 import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import ProjectsData from "./ProjectsData";
+import { useNavigate } from "react-router-dom";
 
 const Project = ({ data }) => (
   <>
@@ -31,13 +32,19 @@ const Project = ({ data }) => (
 );
 
 const Projects = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <div className="absolute  top-0 right-0 w-1/2 text-sm text-[#b8b8b9] pt-16 bg-gray-900 h-screen overflow-auto pb-10 ">
         {ProjectsData.map((data, index) => (
           <Project key={index} data={data} {...data} />
         ))}
-        <p className="text-white text-[18px] animate-bounce  ml-10 font-bold mt-14 flex items-center gap-3 ">
+        <p
+          className="text-white text-[18px] animate-bounce  ml-10 font-bold mt-14 flex items-center gap-3 cursor-pointer "
+          onClick={() => {
+            navigate("/AllProjects");
+          }}
+        >
           <span>View Full Project Archive</span> <FaExternalLinkAlt />
         </p>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="absolute top-0 pt-20 right-0 pr-48 font-medium text-[#b8b8b9]  w-1/2">
+    <div className="absolute top-0 pt-20 right-0 pr-48 font-medium text-[#b8b8b9]  w-1/2 bg-gray-900 h-screen overflow-auto pb-20">
       <p>
         Hello there, I'm Timmi, a passionate front-end developer with a
         background in graphics design. My journey into programming began when my

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="absolute top-0 pt-20 right-0 pr-48 font-medium text-[#b8b8b9]  w-1/2 bg-gray-900 h-screen overflow-auto pb-20">
+    <div className="absolute top-0 pt-20 -right-10 pr-48 font-medium text-[#b8b8b9]  w-1/2 bg-gray-900 h-screen overflow-auto pb-20 scrollbar">
       <p>
         Hello there, I'm Timmi, a passionate front-end developer with a
         background in graphics design. My journey into programming began when my
@@ -13,6 +13,7 @@ const About = () => {
         team. Problem-solving is my forte, making front-end development a
         perfect fit for me.
       </p>
+
       <br />
       <p>
         {" "}
@@ -25,10 +26,8 @@ const About = () => {
       </p>
       <br />
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima,
-        tempora deleniti nemo consequatur unde amet facilis natus magni dolore
-        eligendi eos, nam quos vel suscipit provident optio officia laborum
-        accusamus. Adipisci asperiores temporibus fugiat vel pariatur
+        When I’m not at the computer, I’m usually reading, playing drums, the
+        guitar or hanging out with my friends.
       </p>
     </div>
   );

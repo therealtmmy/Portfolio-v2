@@ -1,6 +1,7 @@
 import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Experience from "./ExperienceData";
+import "./Experience.css";
 
 const ExData = ({ data }) => (
   <>
@@ -30,8 +31,8 @@ const MyExperience = () => {
   return (
     <div>
       {" "}
-      <div className="absolute top-0 right-0 w-1/2 text-sm text-[#b8b8b9] pt-16 pr-48  bg-gray-900 h-screen overflow-auto">
-        <div class>
+      <div className="absolute top-0 right-0 w-1/2 text-sm text-[#b8b8b9] pt-16 pr-48  bg-gray-900 h-screen overflow-auto scrollbar">
+        <div>
           {Experience.map((data, index) => (
             <ExData data={data} {...data} key={index} />
           ))}

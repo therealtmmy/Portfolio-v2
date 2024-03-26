@@ -34,7 +34,7 @@ const Projects = ({ data }) => (
 const AllProject = () => {
   const navigate = useNavigate();
   return (
-    <div className="fixed inset-0 bg-gray-900 overflow-auto pb-20">
+    <div className="fixed inset-0 bg-gray-900 overflow-auto pb-20 scrollbar">
       <div className="flex flex-col items-center pt-20 pr-[44.5em] text-lg text-[#b8b8b9] font-bold ">
         <p
           className="flex flex-row -ml-10 gap 1 items-center mb-2 cursor-pointer"

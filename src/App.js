@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="bg-gray-900 h-screen  font-sans">
+    <div className="bg-gray-900 h-screen overflow-hidden font-sans">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Sidebar />}>
@@ -22,13 +22,6 @@ function App() {
       </BrowserRouter>
     </div>
   );
-}
-
-{
-  /* <Route
-path="/"
-element={<Sidebar active={active} setActive={setActive} />}
-> */
 }
 
 export default App;

@@ -35,7 +35,7 @@ const Projects = () => {
   const navigate = useNavigate();
   return (
     <div>
-      <div className="absolute  top-0 right-0 w-1/2 text-sm text-[#b8b8b9] pt-16 bg-gray-900 h-screen overflow-auto pb-10 ">
+      <div className="absolute  top-0 right-0 w-1/2 text-sm text-[#b8b8b9] pt-16 bg-gray-900 h-screen overflow-auto pb-10 scrollbar">
         {ProjectsData.map((data, index) => (
           <Project key={index} data={data} {...data} />
         ))}

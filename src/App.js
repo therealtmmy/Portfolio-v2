@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="bg-gray-900 h-screen overflow-hidden font-sans">
+    <div className="w-64 h-screen mx-auto   font-sans ">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Sidebar />}>

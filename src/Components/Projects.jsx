@@ -7,16 +7,14 @@ const Project = ({ data }) => (
   <>
     {" "}
     <div className="flex flex-row gap-[35px] p-8 hover:bg-[#b8b8b9]/5 hover:rounded hover:w-[45em]">
-      <img
-        src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg"
-        alt=""
-        className="object-cover h-20 w-50"
-      />
+      <img src={data.img} alt="ProjectAvi" className="object-cover h-20 w-30" />
       <div>
         <p className="mb-2 text-lg font-bold text-white flex flex-row gap items-center gap-2">
           {data.projectName} <FaExternalLinkAlt />
         </p>
-        <p className="w-[30em]">{data.description}</p>
+        <p className="w-[28em]  text-[#a0a0a2] leading-6 font-medium">
+          {data.description}
+        </p>
 
         <div className="text-white flex flex-row gap-2 mt-6">
           <p className="bg-[#373738] p-2 rounded-full">{data.skills[0]}</p>
@@ -24,7 +22,9 @@ const Project = ({ data }) => (
           <p className="bg-[#373738] p-2 rounded-full w-[60px] text-center">
             {data.skills[2]}
           </p>
-          <p className="bg-[#373738] p-2 rounded-full">{data.skills[3]}</p>
+          {data.skills[3] && (
+            <p className="bg-[#373738] p-2 rounded-full">{data.skills[3]}</p>
+          )}
         </div>
       </div>
     </div>

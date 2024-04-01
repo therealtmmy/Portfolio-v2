@@ -9,7 +9,7 @@ const Projects = ({ data }) => (
     {" "}
     <div className="mt-5 flex flex-row gap-20 items-center">
       <span className="w-[1px]">{data.year}</span>
-      <span className="w-[15em] font-bold text-white">{data.company}</span>
+      <span className="w-[15em] font-bold text-white">{data.projectName}</span>
 
       <div className="text-white text-xs flex items-center w-[26em] font-semibold flex-row gap-2">
         <span className="bg-[#373738] p-2 rounded-full">
@@ -18,15 +18,19 @@ const Projects = ({ data }) => (
         <span className="bg-[#373738] p-2 rounded-full">
           {data.technologies[1]}
         </span>
-        <span className="bg-[#373738] p-2 rounded-full w-[60px] text-center">
-          {data.technologies[2]}
-        </span>
+        {data.technologies[2] && (
+          <span className="bg-[#373738] p-2 rounded-full  text-center">
+            {data.technologies[2]}
+          </span>
+        )}
       </div>
 
-      <span className="flex flex-row gap-2 items-center">
-        <a href={data.link}>{data.linkName}</a>
-        <FaExternalLinkAlt />
-      </span>
+      {data.link && (
+        <span className="flex flex-row gap-2 items-center">
+          <a href={data.link}>{data.link}</a>
+          <FaExternalLinkAlt />
+        </span>
+      )}
     </div>
   </>
 );

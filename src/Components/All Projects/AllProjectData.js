@@ -3,7 +3,8 @@ const arrayOfProjects = [
     year: 2024,
     projectName: "Portfolio v2",
     technologies: ["Javascript", "React", "TailwindCSS"],
-    link: "",
+    link: "https://therealtmmy.vercel.app/",
+    linkName: "therealtmmy",
   },
 
   {
@@ -17,28 +18,32 @@ const arrayOfProjects = [
     year: 2023,
     projectName: "Dictionary",
     technologies: ["Javascript", "React", "CSS"],
-    link: "dictionary-lyart-xi.vercel.app/",
+    link: "https://dictionary-lyart-xi.vercel.app/",
+    linkName: "dictionary-lyart",
   },
 
   {
     year: 2023,
     projectName: "devFinder",
     technologies: ["Javascript", "React", "CSS"],
-    link: "dev-finder-snowy.vercel.app/",
+    link: "https://dev-finder-snowy.vercel.app/",
+    linkName: "dev-finder-snowyt",
   },
 
   {
     year: 2023,
     projectName: "Restcountries",
     technologies: ["Javascript", "React", "CSS"],
-    link: "restcountries-rho.vercel.app/",
+    link: "https://restcountries-rho.vercel.app/",
+    linkName: "restcountries-rho",
   },
 
   {
     year: 2023,
     projectName: "Portfolio v1",
     technologies: ["Javascript", "React", "CSS"],
-    link: "oluwatimilehin.vercel.app/",
+    link: "https://oluwatimilehin.vercel.app/",
+    linkName: "oluwatimilehin.vercel",
   },
 
   {
@@ -52,52 +57,60 @@ const arrayOfProjects = [
     year: 2023,
     projectName: "Interactive Card",
     technologies: ["Javascript", "React", "CSS"],
-    link: "interactive-card-r1au.vercel.app/",
+    link: "https://interactive-card-r1au.vercel.app/",
+    linkName: "interactive-card",
   },
   {
     year: 2023,
     projectName: "Bible Quote Generator",
     technologies: ["HTML", "CSS", "JavaScript"],
-    link: "bible-verse-generator.vercel.app/",
+    link: "https://bible-verse-generator.vercel.app/",
+    linkName: "bible-verse-generator",
   },
   {
     year: 2023,
     projectName: "Padi-Agent",
     technologies: ["HTML", "CSS", "JavaScript"],
-    link: "padi-agent-ar4s.vercel.app/",
+    link: "https://padi-agent-ar4s.vercel.app/",
+    linkName: "padi-agent-ar4s",
   },
   {
     year: 2023,
     projectName: "News Flash",
     technologies: ["HTML", "CSS", "JavaScript"],
-    link: "ost-blog.vercel.app/index.html",
+    link: "https://ost-blog.vercel.app/index.html",
+    linkName: "ost-blog.vercel",
   },
   {
     year: 2023,
     projectName: "Fitness-Club",
     technologies: ["HTML", "CSS", "JavaScript"],
-    link: "fitness-club-rose.vercel.app/",
+    link: "https://fitness-club-rose.vercel.app/",
+    linkName: "fitness-club-rose",
   },
 
   {
     year: 2023,
     projectName: "Sushi Food App",
     technologies: ["HTML", "CSS", "JavaScript"],
-    link: "sushi-food-fpy6s1p0l-eoluwatimilehin.vercel.app/",
+    link: "https://sushi-food-fpy6s1p0l-eoluwatimilehin.vercel.app/",
+    linkName: "fsushi-food-fpy6s1p0l",
   },
 
   {
     year: 2023,
     projectName: "Loop Studio",
     technologies: ["HTML", "CSS", "JavaScript"],
-    link: "loop-studio-landing-wine.vercel.app/",
+    link: "https://loop-studio-landing-wine.vercel.app/",
+    linkName: "loop-studio-landing",
   },
 
   {
     year: 2022,
     projectName: "All Seasons Prints",
     technologies: ["HTML", "CSS", "Javascript"],
-    link: "allseasonsprintingcompany.vercel.app/",
+    link: "https://allseasonsprintingcompany.vercel.app/",
+    linkName: "allseasonsprints",
   },
 
   {
@@ -125,7 +138,8 @@ const arrayOfProjects = [
     year: 2022,
     projectName: "Vacation La Prime",
     technologies: ["HTML", "CSS"],
-    link: "valaprime.netlify.app/",
+    link: "https://valaprime.netlify.app/",
+    linkName: "valaprime.netlify",
   },
 ];
 

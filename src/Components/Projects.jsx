@@ -6,7 +6,10 @@ import { useNavigate } from "react-router-dom";
 const Project = ({ data }) => (
   <>
     {" "}
-    <div className="flex flex-row gap-[35px] p-8 hover:bg-[#b8b8b9]/5 hover:rounded hover:w-[45em]">
+    <div
+      className="flex flex-row gap-[35px] p-8 hover:bg-[#b8b8b9]/5 hover:rounded hover:w-[45em] mt-4 cursor-pointer"
+      onClick={() => window.open(data.link, "_blank")}
+    >
       <img src={data.img} alt="ProjectAvi" className="object-cover h-20 w-30" />
       <div>
         <p className="mb-2 text-lg font-bold text-white flex flex-row gap items-center gap-2">

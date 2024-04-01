@@ -27,7 +27,7 @@ const Projects = ({ data }) => (
 
       {data.link && (
         <span className="flex flex-row gap-2 items-center">
-          <a href={data.link}>{data.link}</a>
+          <a href={data.link}>{data.linkName}</a>
           <FaExternalLinkAlt />
         </span>
       )}

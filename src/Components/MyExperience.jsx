@@ -41,7 +41,7 @@ const MyExperience = () => {
             <ExData data={data} {...data} key={index} />
           ))}
           <a
-            href="https://drive.google.com/file/d/15UmSbVWJHIvqqRgAe58pMVlVbtCUfG5D/view?usp=sharing"
+            href="https://drive.google.com/file/d/1tWbb63U9ID15nllzJfNn3Fafah7HM-KL/view?usp=sharing"
             className="text-white text-[18px] animate-bounce font-bold mt-14 ml-10 flex items-center gap-3 pb-10"
           >
             View Full Resume <FaExternalLinkAlt />{" "}
